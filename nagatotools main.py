@@ -13,8 +13,8 @@ print('')
 print('Version: ' + versao)
 print('Versao do python utilizada ' + versao_python)
 print('')
-print('=============================')
-print('=============================')
+print('')
+print('')
 print('')
 print('Codded by ' + maker)
 print('Contato ' + contato)
@@ -39,14 +39,14 @@ def login_verification():
      
 def primeiro_menu():
   print('')
-  print("Ola você conseguiu acessar o primeiro menu")
+  print("Ola voce conseguiu acessar o primeiro menu")
   print('')
   print('1: Verificacao')
   print('')
-  print('Obs: precisamos verificar antes de conceder acesso a nosso menu')
+  print('Obs precisamos verificar antes de conceder acesso a nosso menu')
   print('')
 
-  # Escolher a opção
+  # Escolher a opcao
 
   escolher_opcao = int(input('Pressione 1 para fazer a verificacao '))
 
@@ -73,7 +73,7 @@ def menu_principal():
   print('')
   print('Escolha o que deseja de acordo com a numeracao')
   print('')
-  print('1 Desativar número')
+  print('1 Desativar nÃºmero')
   print('2 Linux tools')
   print('3 Derrubar IP')
   print('4 Gerador de contas')
@@ -88,7 +88,7 @@ def menu_principal():
 
 def desativar_numero():
   os.system("clear")
-  print('===========================================================')
+  print('')
   print("""
      Assunto do email
       Perdido Roubado Por favor desativem mimha conta
@@ -98,7 +98,7 @@ def desativar_numero():
  Ola tive meu aparelho perdido recentemente e preciso que meu numero 
 do whatsapp seja desativado ate eu comprar um outro chip!! o meu numero e numero
 
-===========================================================
+
 """)
 
 os.system("clear")
